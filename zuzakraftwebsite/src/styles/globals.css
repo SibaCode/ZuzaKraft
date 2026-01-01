@@ -1,0 +1,120 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+  color: #2C3E50;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Your exact color variables */
+:root {
+  /* Primary Colors */
+  --teal: #00B4D8;      /* Bright Teal */
+  --purple: #8E44AD;    /* Vivid Purple */
+  
+  /* Supporting Colors from your palette */
+  --yellow: #FFD700;    /* Sunshine Yellow */
+  --coral: #FF6F61;     /* Soft Coral */
+  --white: #FFFFFF;
+  --light-gray: #F4F4F4;
+  --charcoal: #2C3E50;
+  --whatsapp-green: #25D366;
+  --border-color: #E0E0E0;
+  --text-light: #666666;
+}
+
+/* Typography scale */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--charcoal);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+p {
+  font-size: 1rem;
+  color: var(--charcoal);
+  line-height: 1.6;
+}
+
+/* Button styles */
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image defaults */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Touch-friendly minimum sizes */
+button, 
+a, 
+.product-item {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Responsive base */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.375rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+}

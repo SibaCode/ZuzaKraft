@@ -1,0 +1,35 @@
+.catalogue {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogue-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: auto;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-light);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .catalogue {
+    padding: 0 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalogue {
+    padding: 0 0.5rem;
+  }
+  
+  .catalogue-footer {
+    padding: 1.5rem 0.5rem;
+  }
+}
